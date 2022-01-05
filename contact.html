@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
     <title>Contact Best Yoga Studio</title>
 </head>
 <body>
-    <nav>
-        <ul>
+    <nav id="navigation1">
+        <ul id="nav-ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
@@ -28,11 +29,15 @@
             </div>
             
               <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-            
-            <input type="submit" value="Submit" id="input-submit" >
+              <label for="winter-offer-radio">Winter Offer</label>
+              <input type="radio" name="membership-type" id="winter-offer-radio">
+              <label for="usual-offer">Monthly Membership</label>
+              <input type="radio" name="membership-type" id="usual-offer">
+              <input type="submit" value="Submit" id="input-submit" >
           </form>
      </main>
-    <footer>
+    <footer id="footer-all">
+        <h3 id="h3-footer">Connect with us</h3>
         <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
         <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
