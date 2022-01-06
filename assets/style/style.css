@@ -4,12 +4,33 @@
     box-sizing: border-box;
     color: black;
     text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+img {
+    z-index: -100;
 }
 
-nav {
-    background-color: gray;
-    height: 60px;
+
+body {
+    background-image: url(/assets/images/rawan-yasser-seuXd6AQu8g-unsplash\ \(1\).jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
 }
+
+
+
+
+}
+/*Home page styles*/
 
 #main-h1 {
     font-size: 2.5rem;
@@ -22,7 +43,6 @@ nav {
     text-align: center;
     font-size: 2rem;
     text-decoration: none;
-    color: darkblue;
 }
 
 main {
@@ -30,9 +50,23 @@ main {
     overflow: hidden;
 }
 
-#price-table {
+main > a {
+    transition: transform 0.7s ease;
+    display: inline-block;
+}
+main >a:hover {
+    transform: scale(1.05);
+    color: rgb(29, 25, 25);
+}
+/*About page styles */
+#hours-table {
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(250, 160, 122, 0.5);
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 30px;
 }
 
 #about-about {
@@ -41,10 +75,56 @@ main {
     margin-right: auto;
 }
 
+/* Pricing styles */
+
+.price {
+    background-color: rgba(250, 160, 122, 0.5);
+    width: 33%;
+    float: left;
+    font-weight: 800;
+    margin-left: 110px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.offer {
+    background-color: rgba(230, 131, 89, 0.6);
+    width: 33%;
+    float: right;
+    font-weight: 800;
+    margin-right: 110px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.button1 {
+    color: darkred;
+    font-size: 1.2rem;
+    display: inline-block;
+    transition: transform 0.7s ease;
+}
+
+.button1:hover {
+    transform: scale(1.04);
+    color: beige;
+}
+
+/* Navigation all pages */
+
+nav {
+    background-color: gray;
+    height: 60px;
+}
+
 #nav-ul li{
     display: inline;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    font-weight: 600;
     
 }
 
@@ -52,13 +132,20 @@ main {
     justify-content: center;
     text-align: center;
     padding-top: 15px;
-    transition: transform 0.5s ease-in;
+    transition: transform 0.6s ease-in;
 }
 
 
 #nav-ul:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
+
+#nav-ul a:hover {
+    color: beige;
+}
+
+
+/* Footer styles */
 
 footer {
     justify-content: center;
@@ -71,6 +158,7 @@ footer {
     width: 100%;
     height: 40px;
 
+
 }
 
 footer a{
@@ -78,6 +166,7 @@ footer a{
     padding-right: 1.5rem;
     padding-top: 10px;
     transition: transform ease .3s;
+    
 }
  
 footer a:hover {

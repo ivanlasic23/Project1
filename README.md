@@ -106,3 +106,9 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+links used : 
+
+https://unsplash.com/photos/MKmM7SV-GiQ for background photo
+https://8000-plum-bird-vwgftot8.ws-eu25.gitpod.io/pricing.html for background photo
