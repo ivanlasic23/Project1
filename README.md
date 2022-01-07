@@ -110,5 +110,6 @@ Happy coding!
 
 links used : 
 
-https://unsplash.com/photos/MKmM7SV-GiQ for background photo
-https://8000-plum-bird-vwgftot8.ws-eu25.gitpod.io/pricing.html for background photo
+https://unsplash.com/photos/MKmM7SV-GiQ for background photo on home page
+https://8000-plum-bird-vwgftot8.ws-eu25.gitpod.io/pricing.html for background photo on about page
+https://unsplash.com/photos/LzrI5kLER7Y for background photo on pricing page

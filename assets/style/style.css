@@ -9,10 +9,6 @@
     font-family: 'Oswald', sans-serif;
     overflow: hidden;
 }
-img {
-    z-index: -100;
-}
-
 
 #body-home {
     background-image: url(/assets/images/rawan-yasser-seuXd6AQu8g-unsplash\ \(1\).jpg);
@@ -34,10 +30,6 @@ img {
     background-attachment: fixed;
 }
 
-
-
-
-}
 /*Home page styles*/
 
 #main-h1 {
@@ -66,7 +58,9 @@ main >a:hover {
     transform: scale(1.05);
     color: rgb(29, 25, 25);
 }
+
 /*About page styles */
+
 #hours-table {
     margin-left: auto;
     margin-right: auto;
@@ -97,7 +91,7 @@ main >a:hover {
 
 .price {
     background-color: rgba(250, 160, 122, 0.8);
-    width: 33%;
+    width: 25%;
     float: left;
     font-weight: 800;
     margin-left: 110px;
@@ -109,7 +103,7 @@ main >a:hover {
 
 .offer {
     background-color: rgba(230, 131, 89, 0.8);
-    width: 33%;
+    width: 25%;
     float: right;
     font-weight: 800;
     margin-right: 110px;
@@ -130,6 +124,74 @@ main >a:hover {
     transform: scale(1.04);
     color: beige;
 }
+
+=
+
+/* Contact page styles */
+
+#main-contact {
+    background-color: blue;
+    
+}
+
+.contact-form {
+    background-color: rgba(247, 247, 247, 0.8);
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: black solid 2px;
+    height: auto;
+    padding-top: 33px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form-form {
+    display: block;
+}
+
+input {
+    width: 90%;
+    border: black solid 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px 2px 5px 2px;
+    border-radius: 5px;
+}
+
+#input-submit {
+    width: 33%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: blue;
+    transition: transform 0.4s ease;
+}
+
+#input-submit:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 90%;
+    height: 65px;
+}
+
+#main-contact {
+    background-image: url(/assets/images/402-felix-8297-eye_1\ \(1\).jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 
 /* Navigation all pages */
 
