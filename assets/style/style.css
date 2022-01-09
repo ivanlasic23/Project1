@@ -77,6 +77,10 @@ main >a:hover {
     margin-right: auto;
 }
 
+.video {
+    display: inline-block;
+}
+
 /* Pricing styles */
 
 #body-pricing {

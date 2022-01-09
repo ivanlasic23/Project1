@@ -10,7 +10,7 @@ You can safely delete this README.md file, or change it for your own project. Pl
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+`python3 -m http.server `
 
 A blue button should appear to click: _Make Public_,
 
@@ -110,6 +110,5 @@ Happy coding!
 
 links used : 
 
-https://unsplash.com/photos/MKmM7SV-GiQ for background photo on home page
-https://8000-plum-bird-vwgftot8.ws-eu25.gitpod.io/pricing.html for background photo on about page
-https://unsplash.com/photos/LzrI5kLER7Y for background photo on pricing page
+https://unsplash.com/photos/MKmM7SV-GiQ for background photo
+https://8000-plum-bird-vwgftot8.ws-eu25.gitpod.io/pricing.html for background photo
