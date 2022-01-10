@@ -138,14 +138,7 @@ main >a:hover {
     color: beige;
 }
 
-=
-
 /* Contact page styles */
-
-#main-contact {
-    background-color: blue;
-    
-}
 
 .contact-form {
     background-color: rgba(247, 247, 247, 0.7);
@@ -366,3 +359,4 @@ footer a:hover {
             .contact-form {
                 width: 80%;
             }
+        }
