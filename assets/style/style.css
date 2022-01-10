@@ -10,6 +10,8 @@
     overflow: hidden;
 }
 
+/*Home page styles*/
+
 #body-home {
     background-image: url(/assets/images/rawan-yasser-seuXd6AQu8g-unsplash\ \(1\).jpg);
     width: 100%;
@@ -20,17 +22,9 @@
     background-attachment: fixed;   
 }
 
-#body-about {
-    background-image: url(/assets/images/katie-bush-MKmM7SV-GiQ-unsplash\ \(1\).jpg);
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+#main-main {
+    background-color: rgba(100, 100, 200, 0.5);
 }
-
-/*Home page styles*/
 
 #main-h1 {
     font-size: 2.5rem;
@@ -61,24 +55,39 @@ main >a:hover {
 
 /*About page styles */
 
+#body-about {
+    background-image: url(/assets/images/katie-bush-MKmM7SV-GiQ-unsplash\ \(1\).jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #hours-table {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(250, 160, 122, 0.5);
+    background-color: rgba(255, 167, 243, 0.5);
     padding: 15px 15px 15px 15px;
     border-radius: 20px;
     float: left;
     margin-left: 30px;
+    margin-top: 50px;
+    
+}
+
+.main-about {
+    float: right;
+    margin-right: 50px;
+}
+
+.section-about {
+    float: left;
 }
 
 #about-about {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.video {
-    display: inline-block;
 }
 
 /* Pricing styles */
@@ -94,7 +103,7 @@ main >a:hover {
 }
 
 .price {
-    background-color: rgba(250, 160, 122, 0.8);
+    background-color: rgba(250, 160, 122, 0.7);
     width: 25%;
     float: left;
     font-weight: 800;
@@ -106,7 +115,7 @@ main >a:hover {
 }
 
 .offer {
-    background-color: rgba(230, 131, 89, 0.8);
+    background-color: rgba(230, 131, 89, 0.7);
     width: 25%;
     float: right;
     font-weight: 800;
@@ -167,13 +176,14 @@ input {
     width: 33%;
     margin-bottom: 15px;
     border-radius: 5px;
-    background-color: blue;
+    background-color: #FFA7F3;
     transition: transform 0.4s ease;
 }
 
 #input-submit:hover {
     transform: scale(1.05);
     cursor: pointer;
+    color: beige;
 }
 
 label {
@@ -184,6 +194,7 @@ textarea {
     border-radius: 5px;
     width: 90%;
     height: 65px;
+    margin-top: 10px;
 }
 
 #main-contact {
@@ -200,7 +211,7 @@ textarea {
 /* Navigation all pages */
 
 nav {
-    background-color: gray;
+    background-color: #FFA7F3;
     height: 60px;
 }
 
@@ -221,7 +232,7 @@ nav {
 
 
 #nav-ul:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 #nav-ul a:hover {
@@ -234,23 +245,20 @@ nav {
 footer {
     justify-content: center;
     text-align: center;
-    background-color: gray;
+    background-color: #FFA7F3;
     display: flex;
     height: 2.5rem;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 40px;
-
-
 }
 
 footer a{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 10px;
-    transition: transform ease .3s;
-    
+    transition: transform ease 0.3s;   
 }
  
 footer a:hover {
@@ -263,13 +271,6 @@ footer a:hover {
     font-size: 1rem;
 }
 
-/* Main Page main content */
-
-#main-main {
-    background-color: rgba(100, 100, 200, 0.5);
-}
-
-
 /* Responsive Home page Mobile and Tablet */
 
 @media only screen and (max-width: 438px) {
@@ -277,9 +278,6 @@ footer a:hover {
         height: 100px;
     }
 
-    #h3-footer {
-            display: none;
-        }
     li  a {
         font-size: 24px;
     }
@@ -299,11 +297,8 @@ footer a:hover {
     
   }
 
-  @media only screen and (max-width: 760px) {}
-  {
-      #h3-footer {
-          display: none;
-      }
+  @media only screen and (max-width: 634px) {
+
       #body-about {
         background-image: url(/assets/images/katie-bush-MKmM7SV-GiQ-unsplash\ \(1\).jpg);
         width: 100%;
@@ -312,6 +307,36 @@ footer a:hover {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+    }
+
+    .main-about {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        float: none;
+    }
+
+    .video {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-about {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;   
+    }
+
+    #hours-table {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: auto;
+    }
+
+    #h3-footer {
+        display: none;
     }
      
   }
