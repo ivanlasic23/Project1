@@ -24,6 +24,9 @@
 
 #main-main {
     background-color: rgba(100, 100, 200, 0.5);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main-h1 {
@@ -136,13 +139,14 @@ main >a:hover {
 .button1:hover {
     transform: scale(1.04);
     color: beige;
+    text-decoration: underline;
 }
 
 /* Contact page styles */
 
 .contact-form {
     background-color: rgba(247, 247, 247, 0.7);
-    width: 20%;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
     border: black solid 2px;
@@ -177,6 +181,7 @@ input {
     transform: scale(1.05);
     cursor: pointer;
     color: beige;
+    text-decoration: underline;
 }
 
 label {
@@ -212,17 +217,15 @@ nav {
     display: inline;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    font-weight: 600;
-    
+    font-weight: 600;  
 }
 
 #nav-ul {
     justify-content: center;
     text-align: center;
     padding-top: 15px;
-    transition: transform 0.6s ease-in;
+    transition: transform 0.6s ease-in; 
 }
-
 
 #nav-ul:hover {
     transform: scale(1.03);
@@ -230,6 +233,8 @@ nav {
 
 #nav-ul a:hover {
     color: beige;
+    transform: scale(1.03);
+    text-decoration: underline;
 }
 
 
