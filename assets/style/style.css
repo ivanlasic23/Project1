@@ -52,8 +52,9 @@ main > a {
     display: inline-block;
 }
 main >a:hover {
-    transform: scale(1.05);
-    color: rgb(29, 25, 25);
+    transform: scale(1.03);
+    color: beige;
+    
 }
 
 /*About page styles */
@@ -75,7 +76,7 @@ main >a:hover {
     float: left;
     margin-left: 30px;
     margin-top: 50px;
-    
+    border: 1px solid white; 
 }
 
 .main-about {
@@ -115,6 +116,7 @@ main >a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 20px;
+    border: 1px solid white; 
 }
 
 .offer {
@@ -127,6 +129,7 @@ main >a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 20px;
+    border: 1px solid white; 
 }
 
 .button1 {
@@ -153,11 +156,7 @@ main >a:hover {
     height: auto;
     padding-top: 33px;
     border-radius: 5px;
-    margin-top: 10px;
-}
-
-.form-form {
-    display: block;
+    margin-top: 25px;
 }
 
 input {
@@ -211,13 +210,15 @@ textarea {
 nav {
     background-color: #FFA7F3;
     height: 60px;
+    border-bottom: 1px solid white;
 }
 
 #nav-ul li{
     display: inline;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    font-weight: 600;  
+    font-weight: 500; 
+    text-transform: uppercase; 
 }
 
 #nav-ul {
@@ -229,6 +230,7 @@ nav {
 
 #nav-ul:hover {
     transform: scale(1.03);
+    
 }
 
 #nav-ul a:hover {
@@ -250,6 +252,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 40px;
+    border-top: 1px solid white;
 }
 
 footer a{
