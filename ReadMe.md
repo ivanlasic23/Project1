@@ -88,3 +88,11 @@ Writing Your Best Code
 HTML & CSS Coding Best Practices
 Google HTML/CSS Style Guide
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+
+
+Home page pic link: https://unsplash.com/photos/I2YSmEUAgDY
+About page pic link: https://unsplash.com/photos/rX8gBeg2WM0
+Pricing page pic link:
+Sign Up page pic link: https://unsplash.com/photos/GaprWyIw66o
+
+Video link: https://www.youtube.com/watch?v=qnxzm6gngXA

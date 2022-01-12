@@ -9,11 +9,78 @@
     font-family: 'Oswald', sans-serif;
     overflow: hidden;
 }
+/*First I styled parts that will be re used in every page such as nav and footer*/
+/* Navigation all pages */
+
+nav {
+    background-color: #FFA7F3;
+    height: 60px;
+    border-bottom: 1px solid white;
+}
+
+#nav-ul li{
+    display: inline;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-weight: 500; 
+    text-transform: uppercase; 
+}
+
+#nav-ul {
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    transition: transform 0.6s ease-in; 
+}
+
+#nav-ul:hover {
+    transform: scale(1.03);
+    
+}
+
+#nav-ul a:hover {
+    color: beige;
+    transform: scale(1.03);
+    text-decoration: underline;
+}
+
+
+/* Footer styles */
+
+footer {
+    justify-content: center;
+    text-align: center;
+    background-color: #FFA7F3;
+    display: flex;
+    height: 2.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid white;
+}
+
+footer a{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 10px;
+    transition: transform ease 0.3s;   
+}
+ 
+footer a:hover {
+    transform: scale(1.2);
+}
+
+#h3-footer {
+    padding-top: 8px;
+    font-weight: 100;
+    font-size: 1rem;
+}
 
 /*Home page styles*/
 
 #body-home {
-    background-image: url(/assets/images/rawan-yasser-seuXd6AQu8g-unsplash\ \(1\).jpg);
+    background-image: url(/assets/images/Homepic.jpg);
     width: 100%;
     height: 100%;
     background-position: center;
@@ -23,7 +90,7 @@
 }
 
 #main-main {
-    background-color: rgba(100, 100, 200, 0.5);
+    /*background-color: rgba(100, 100, 200, 0.5);*/
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -60,12 +127,12 @@ main >a:hover {
 /*About page styles */
 
 #body-about {
-    background-image: url(/assets/images/katie-bush-MKmM7SV-GiQ-unsplash\ \(1\).jpg);
-    width: 100%;
+    background-image: url(/assets/images/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg);
+    width: auto;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-attachment: fixed;
 }
 
@@ -145,7 +212,7 @@ main >a:hover {
     text-decoration: underline;
 }
 
-/* Contact page styles */
+/* Contact sign up page styles */
 
 .contact-form {
     background-color: rgba(247, 247, 247, 0.7);
@@ -195,7 +262,7 @@ textarea {
 }
 
 #main-contact {
-    background-image: url(/assets/images/402-felix-8297-eye_1\ \(1\).jpg);
+    background-image: url(/assets/images/signuppage.jpg);
     width: 100%;
     height: 100%;
     background-position: center;
@@ -205,78 +272,19 @@ textarea {
 }
 
 
-/* Navigation all pages */
 
-nav {
-    background-color: #FFA7F3;
-    height: 60px;
-    border-bottom: 1px solid white;
-}
-
-#nav-ul li{
-    display: inline;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    font-weight: 500; 
-    text-transform: uppercase; 
-}
-
-#nav-ul {
-    justify-content: center;
-    text-align: center;
-    padding-top: 15px;
-    transition: transform 0.6s ease-in; 
-}
-
-#nav-ul:hover {
-    transform: scale(1.03);
-    
-}
-
-#nav-ul a:hover {
-    color: beige;
-    transform: scale(1.03);
-    text-decoration: underline;
-}
-
-
-/* Footer styles */
-
-footer {
-    justify-content: center;
-    text-align: center;
-    background-color: #FFA7F3;
-    display: flex;
-    height: 2.5rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    border-top: 1px solid white;
-}
-
-footer a{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 10px;
-    transition: transform ease 0.3s;   
-}
- 
-footer a:hover {
-    transform: scale(1.2);
-}
-
-#h3-footer {
-    padding-top: 8px;
-    font-weight: 100;
-    font-size: 1rem;
-}
 
 /* Responsive Home page Mobile and Tablet */
 
 @media only screen and (max-width: 438px) {
     nav {
         height: 100px;
+    }
+
+    #main-offer {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        color: beige;
     }
 
     li  a {
