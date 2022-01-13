@@ -9,455 +9,17 @@
 	font-family: 'Oswald', sans-serif;
 	overflow: hidden;
 }
-/*First I styled parts that will be re used in every page such as nav and footer*/
-/* Navigation all pages */
-/*
-nav {
-	background-color: #FFA7F3;
-	height: 60px;
-	border-bottom: 1px solid white;
-}
 
-#nav-ul li {
-	display: inline;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-	font-weight: 500;
-	text-transform: uppercase;
-}
 
-#nav-ul {
-	justify-content: center;
-	text-align: center;
-	padding-top: 15px;
-	transition: transform 0.6s ease-in;
-}
 
-#nav-ul:hover {
-	transform: scale(1.03);
-}
-
-#nav-ul a:hover {
-	color: beige;
-	transform: scale(1.03);
-	text-decoration: underline;
-}
-
-*/
-/* Footer styles */
-/*
-footer {
-	justify-content: center;
-	text-align: center;
-	background-color: #FFA7F3;
-	display: flex;
-	height: 2.5rem;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	height: 40px;
-	border-top: 1px solid white;
-}
-
-footer a {
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-	padding-top: 10px;
-	transition: transform ease 0.3s;
-}
-
-footer a:hover {
-	transform: scale(1.2);
-}
-
-#h3-footer {
-	padding-top: 8px;
-	font-weight: 100;
-	font-size: 1rem;
-}
-*/
-/*Home page styles*/
-
-#body-home {
-	background-image: url(/assets/images/Homepic.jpg);
-	width: 100%;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#main-main {
-    /*background-color: rgba(100, 100, 200, 0.5);*/
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#main-h1 {
-	font-size: 2.5rem;
-	justify-content: center;
-	text-align: center;
-}
-
-#main-offer {
-	justify-content: center;
-	text-align: center;
-	font-size: 2rem;
-	text-decoration: none;
-}
-
-main {
-	text-align: center;
-	overflow: hidden;
-}
-
-main > a {
-	transition: transform 0.7s ease;
-	display: inline-block;
-}
-
-main >a:hover {
-	transform: scale(1.03);
-	color: beige;
-}
-
-/*About page styles */
-/*
-
-.floatright {
-    width: 100%;
-    float: right;
-}
-
-#body-about {
-    background-image: url(/assets/images/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-attachment: fixed;
-    height: 100vh;
-}
-
-#hours-table {
-    background-color: rgba(255, 167, 243, 0.5);
-    padding: 15px 15px 15px 15px;
-    border-radius: 20px;
-    border: 1px solid white; 
-    display: block;
-}
-
-.section-about {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: 30px;
-    float: right;
-}
-
-iframe {
-    float: right;
-    margin-right: 50px;
-}
-.main-about {
-    d
-}
-*/
-
-/* Pricing styles */
-
-#body-pricing {
-	background-image: url(/assets/images/alex-shaw-LzrI5kLER7Y-unsplash.jpg);
-	width: 100%;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.price {
-	background-color: rgba(250, 160, 122, 0.7);
-	width: 25%;
-	float: left;
-	font-weight: 800;
-	margin-left: 110px;
-	margin-top: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-radius: 20px;
-	border: 1px solid white;
-}
-
-.offer {
-	background-color: rgba(230, 131, 89, 0.7);
-	width: 25%;
-	float: right;
-	font-weight: 800;
-	margin-right: 110px;
-	margin-top: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-radius: 20px;
-	border: 1px solid white;
-}
-
-.button1 {
-	color: darkred;
-	font-size: 1.2rem;
-	display: inline-block;
-	transition: transform 0.7s ease;
-}
-
-.button1:hover {
-	transform: scale(1.04);
-	font-size: 1.3rem;
-	color: beige;
-	text-decoration: underline;
-}
-
-/* Contact sign up page styles */
-
-.contact-form {
-	background-color: rgba(247, 247, 247, 0.7);
-	width: 25%;
-	margin-left: auto;
-	margin-right: auto;
-	border: black solid 2px;
-	height: auto;
-	padding-top: 33px;
-	border-radius: 5px;
-	margin-top: 25px;
-}
-
-input {
-	width: 90%;
-	border: black solid 1px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin: 5px 2px;
-	border-radius: 5px;
-}
-
-#input-submit {
-	width: 33%;
-	margin-bottom: 15px;
-	border-radius: 5px;
-	background-color: #FFA7F3;
-	transition: transform 0.4s ease;
-}
-
-#input-submit:hover {
-	transform: scale(1.05);
-	cursor: pointer;
-	color: beige;
-	text-decoration: underline;
-}
-
-label {
-	display: block;
-}
-
-textarea {
-	border-radius: 5px;
-	width: 90%;
-	height: 65px;
-	margin-top: 10px;
-}
-
-#main-contact {
-	background-image: url(/assets/images/signuppage.jpg);
-	width: 100%;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-@media only screen and (max-width: 634px) {
-
-    /* Main page*/
-
-	.main-about {
-		width: 100%;
-		float: none;
-	}
-
-    /* About Page 
-
-      #body-about {
-        background-image: url(/assets/images/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg);
-        width: 100%;
-        height: 100%;
-        background-position: left;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    iframe {
-        width: auto;
-    }
-
-    .section-about {
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;   
-    }
-
-    #hours-table {
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-        width: auto;
-    }
-
-*/
-
-    /* Footer */
-
-	/*#h3-footer {
-		display: none;
-	}*/
-}
-
-@media only screen and (max-width: 768px) {
-
-    /* About page 
-
-
-    #body-about {
-        background-image: url(/assets/images/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg);
-        width: 100%;
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-attachment: fixed;
-        float: none;
-    }
-    .floatright {
-        width: 100%;
-    }    
-    .main-about {
-        display: block;
-    }
-    .section-about {
-        display: block;
-    }
-    #hours-table {
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-        width: 33%;
-        justify-content: center;
-        text-align: center;
-        
-    }
-    iframe {
-        width: auto;
-    }
-
-    */
-
-    /* Price page */
-
-	.offer {
-		float: none;
-		margin-left: auto !important;
-		margin-right: auto !important;
-		width: 80%;
-	}
-
-	.price {
-		float: none;
-		margin-left: auto !important;
-		margin-right: auto !important;
-		width: 80%;
-	}
-}
-
-@media only screen and (max-width: 1000px) {
-
-        /* Contact Sign up */
-
-	.contact-form {
-		width: 40%;
-	}
-}
-
-@media only screen and (max-width: 575px) {
-
-            /* Contact Sign up */
-
-	.contact-form {
-		width: 80%;
-	}
-}
-
-@media only screen and (max-width: 438px) {
-              
-
-
-    /* Footer */
-
-	/*footer a {
-		font-size: 24px;
-	}   */
-
-        /* Main Page */
-
-	#main-offer {
-		padding-top: 2rem;
-		font-size: 1.5rem;
-		color: beige;
-	}
-}
-        
-        /* About Page
-
-        body-about {
-        background-image: url(/assets/images/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg);
-        width: 100%;
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-attachment: fixed;
-        float: none;
-        }
-        .floatright {
-            width: 100%;
-        }    
-        .main-about {
-            display: block;
-        }
-        .section-about {
-            display: block;
-        }
-        #hours-table {
-            margin-left: auto;
-            margin-right: auto;
-            float: none;
-            width: 50%;
-        }
-        #hours-table {
-            background-color: rgba(255, 167, 243, 0.5);
-            padding: 15px 15px 15px 15px;
-            border-radius: 20px;
-            border: 1px solid white; 
-            display: block;
-            margin-top: 20px;
-        }
-
-    */
-
+       
 	 /* About page*/
 
 @media only screen and (min-width: 319px) {
+
+	body {
+		background-color: beige;
+	}
 
 	#hours-table {
 		background-color: rgba(255, 167, 243, 0.5);
@@ -620,4 +182,216 @@ footer a:hover {
 	font-weight: 100;
 	font-size: 1rem;
 }
+}
+
+/* Contact page */
+/*
+
+
+
+
+*/
+@media only screen and (min-width: 319px) {
+	#main-contact {
+		background-image: url(/assets/images/signuppage.jpg);
+		width: 100%;
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.contact-form {
+		background-color: rgba(247, 247, 247, 0.7);
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		border: black solid 2px;
+		height: auto;
+		padding-top: 33px;
+		border-radius: 5px;
+		margin-top: 25px;
+	}
+
+	input {
+		width: 90%;
+		border: black solid 1px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin: 5px 2px;
+		border-radius: 5px;
+	}
+	
+	#input-submit {
+		width: 33%;
+		font-weight: 800;
+		margin-bottom: 15px;
+		border-radius: 5px;
+		background-color: #FFA7F3;
+		transition: transform 0.4s ease;
+	}
+	
+	#input-submit:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+		color: beige;
+		text-decoration: underline;
+	}
+	
+	label {
+		display: block;
+	}
+	
+	textarea {
+		border-radius: 5px;
+		width: 90%;
+		height: 65px;
+		margin-top: 10px;
+	}
+	.sign-up-here {
+		padding-bottom: 20px;
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	.contact-form {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.contact-form {
+		width: 33%;
+	}
+}
+
+/*Home page styles*/
+
+@media only screen and (min-width: 319px) {
+
+#body-home {
+	background-image: url(/assets/images/Homepic.jpg);
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#main-main {
+    /*background-color: rgba(100, 100, 200, 0.5);*/
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-h1 {
+	font-size: 2.5rem;
+	justify-content: center;
+	text-align: center;
+}
+
+#main-offer {
+	justify-content: center;
+	text-align: center;
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+main {
+	text-align: center;
+	overflow: hidden;
+}
+
+main > a {
+	transition: transform 0.7s ease;
+	display: inline-block;
+}
+
+main >a:hover {
+	transform: scale(1.03);
+	color: beige;
+}
+#main-offer {
+	padding-top: 2rem;
+	font-size: 1.5rem;
+	color: beige;
+}
+}
+
+/* Pricing page */
+
+@media only screen and (min-width: 319px) {
+
+#body-pricing {
+	background-image: url(/assets/images/alex-shaw-LzrI5kLER7Y-unsplash.jpg);
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+	.offer {
+		background-color: rgba(230, 131, 89, 0.7);
+		float: none;
+		border-radius: 20px;
+		border: 1px solid white;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 80%;
+		font-weight: 700;
+	}
+
+	.price {
+		background-color: rgba(250, 160, 122, 0.7);
+		float: none;
+		border-radius: 20px;
+		border: 1px solid white;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 80%;
+		font-weight: 700;
+	} 
+
+.button1 {
+	color: darkred;
+	font-size: 1.2rem;
+	display: inline-block;
+	transition: transform 0.7s ease;
+}
+
+.button1:hover {
+	transform: scale(1.04);
+	font-size: 1.3rem;
+	color: beige;
+	text-decoration: underline;
+}
+ 
+}
+
+@media only screen and (min-width: 767px) {
+
+.offer {
+	width: 25%;
+	float: right;
+	margin-right: 150px;
+	
+}
+
+.price {
+	width: 25%;
+	float: left;
+	margin-left: 150px;
+} 
 }
