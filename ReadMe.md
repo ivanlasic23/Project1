@@ -33,7 +33,7 @@ Pricing page provides users with two different pricing options subject to change
 
 Contact page
 
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part normal pricing or winter months promo. The user will be asked to submit their full name and email address.
+This page will allow the user to get signed up. The user will be able specify if they would like to take part normal pricing or winter months promo. The user will be asked to submit their full name and email address. I have decides against using the labels because I think it looks cleaner without it.
 
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.

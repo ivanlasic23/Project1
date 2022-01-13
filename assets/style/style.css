@@ -11,7 +11,7 @@
 }
 /*First I styled parts that will be re used in every page such as nav and footer*/
 /* Navigation all pages */
-
+/*
 nav {
 	background-color: #FFA7F3;
 	height: 60px;
@@ -43,9 +43,9 @@ nav {
 	text-decoration: underline;
 }
 
-
+*/
 /* Footer styles */
-
+/*
 footer {
 	justify-content: center;
 	text-align: center;
@@ -75,7 +75,7 @@ footer a:hover {
 	font-weight: 100;
 	font-size: 1rem;
 }
-
+*/
 /*Home page styles*/
 
 #body-home {
@@ -319,9 +319,9 @@ textarea {
 
     /* Footer */
 
-	#h3-footer {
+	/*#h3-footer {
 		display: none;
-	}
+	}*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -399,24 +399,14 @@ textarea {
 }
 
 @media only screen and (max-width: 438px) {
-              /*dhbdwhinwdinuedwinudwiundiunwiudnw*/
-
-        /* Navigation */
-
-	nav {
-		height: 75px;
-	}
-
-	li  a {
-		font-size: 20px;
-	}
+              
 
 
     /* Footer */
 
-	footer a {
+	/*footer a {
 		font-size: 24px;
-	}   
+	}   */
 
         /* Main Page */
 
@@ -465,9 +455,9 @@ textarea {
 
     */
 
-@media only screen and (min-width: 319px) {
+	 /* About page*/
 
-            /* About page*/
+@media only screen and (min-width: 319px) {
 
 	#hours-table {
 		background-color: rgba(255, 167, 243, 0.5);
@@ -539,3 +529,95 @@ textarea {
 
 }
 
+/* Navigation bar */
+
+@media only screen and (min-width: 319px) {
+	nav {
+		background-color: #FFA7F3;
+		border-bottom: 1px solid white;
+		height: 75px;
+	}
+
+	#nav-ul li {
+		display: inline;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	li  a {
+		font-size: 20px;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+	#nav-ul {
+		justify-content: center;
+		text-align: center;
+		padding-top: 15px;
+		transition: transform 0.6s ease-in;
+	}
+
+	#nav-ul:hover {
+		transform: scale(1.03);
+	}
+	
+	#nav-ul a:hover {
+		color: beige;
+		transform: scale(1.03);
+		text-decoration: underline;
+	}
+
+}
+
+@media only screen and (min-width: 767px) {
+	nav {
+		height: 60px
+	};
+}
+
+/* Footer */
+
+@media only screen and (min-width: 319px) {
+
+footer {
+	justify-content: center;
+	text-align: center;
+	background-color: #FFA7F3;
+	display: flex;
+	height: 2.5rem;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid white;
+}
+
+footer a {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: 10px;
+	transition: transform ease 0.3s;
+}
+
+footer a:hover {
+	transform: scale(1.2);
+}
+
+
+#h3-footer {
+	display: none;
+}
+
+}
+
+@media only screen and (min-width: 767px) {
+
+#h3-footer {
+	display: block;
+	padding-top: 8px;
+	font-weight: 100;
+	font-size: 1rem;
+}
+}
