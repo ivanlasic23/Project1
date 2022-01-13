@@ -32,7 +32,7 @@
 	}
 
 	#body-about {
-		background-image: url(assets/images/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg);
+		background-image: url(../images/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg);
 		width: 100%;
 		height: 100%;
 		background-position: center;
@@ -84,7 +84,7 @@
 	}
 
 	#body-about {
-		background-image: url(assets/images/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg);
+		background-image: url(../images/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg);
 		background-position: left;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -198,7 +198,7 @@
 */
 @media only screen and (min-width: 319px) {
 	#main-contact {
-		background-image: url(assets/images/signuppage.jpg);
+		background-image: url(../images/signuppage.jpg);
 		width: 100%;
 		height: 100%;
 		background-position: center;
@@ -278,7 +278,7 @@
 @media only screen and (min-width: 319px) {
 
 	#body-home {
-		background-image: url(assets/images/Homepic.jpg);
+		background-image: url(../images/Homepic.jpg);
 		width: 100%;
 		height: 100%;
 		background-position: center;
@@ -342,7 +342,6 @@
 		background-size: cover;
 		background-attachment: fixed;
 	}
-
 
 	.offer {
 		background-color: rgba(230, 131, 89, 0.7);
