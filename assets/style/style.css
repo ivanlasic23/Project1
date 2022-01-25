@@ -105,8 +105,8 @@
 
 	#nav-ul li {
 		display: inline;
-		padding-left: 1.5rem;
-		padding-right: 1.5rem;
+		padding-left: 1.6rem;
+		padding-right: 1.6rem;
 		font-weight: 500;
 		text-transform: uppercase;
 	}
@@ -325,6 +325,12 @@
 	#main-offer {
 		padding-top: 2rem;
 		font-size: 1.5rem;
+		color: beige;
+	}
+	#welcomemsg p{
+		margin-top: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
 		color: beige;
 	}
 }
