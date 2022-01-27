@@ -38,8 +38,6 @@
 		margin: 25px auto;
 	}
 
-	
-
 	#gallery-about {
 		width: 100%;
 		height: auto;
@@ -52,6 +50,7 @@
 		color: beige;
 		text-align: center;
 		width: 90%;
+		margin-top: 10px;
 		margin-left: auto;
 		margin-right: auto;
 		border-radius: 10px;
@@ -85,6 +84,7 @@
 
 	iframe {
 		width: 80%;
+		border-radius: 5px;
 	}
 }
 
@@ -111,10 +111,9 @@
 	}
 
 	#about-img {
-		
-		
 		display: inline-block;
 		width: 40%;
+		border-radius: 5px;
 		
 	}
 
@@ -322,7 +321,7 @@
 		justify-content: center;
 		text-align: center;
 		font-size: 2rem;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 
 	main {
@@ -351,6 +350,7 @@
 		padding-right: 20px;
 		text-align: center;
 		color: beige;
+		margin-bottom: 55px;
 	}
 }
 
