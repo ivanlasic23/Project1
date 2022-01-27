@@ -17,6 +17,12 @@
 
 @media only screen and (min-width: 319px) {
 
+	.hoursh3 {
+		justify-content: center;
+		text-align: center;
+		font-size: 22px;
+	}
+
 	.testimonials {
 		display: block;
 		margin-bottom: 50px;
@@ -29,7 +35,6 @@
 		display: block;
 		text-align: center;
 		width: 60%;
-		
 		margin: 25px auto;
 	}
 
@@ -63,7 +68,7 @@
 		border-radius: 20px;
 		border: 1px solid white;
 		display: block;
-		width: 80%;
+		width: 60%;
 		margin: 15px auto;
 		margin-bottom: 50px;
 	}
@@ -133,8 +138,9 @@
 
 	#hours-table {
 		/*float: right;*/
-		width: 40%;
-		margin-right: 20px;
+		width: 20%;
+		margin-right: auto;
+		margin-left: auto;
 		text-align: center;
 	}
 
