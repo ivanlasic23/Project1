@@ -60,7 +60,6 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
 Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
@@ -69,9 +68,7 @@ The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from Font Awesome
 Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+
 
 Other General Project Advice
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
@@ -96,3 +93,5 @@ Pricing page pic link:
 Sign Up page pic link: https://unsplash.com/photos/GaprWyIw66o
 
 Video link: https://www.youtube.com/watch?v=qnxzm6gngXA
+
+https://mycolor.space/?hex=%23845EC2&sub=1 used for color inspiration
