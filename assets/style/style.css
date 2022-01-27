@@ -58,8 +58,8 @@
 		width: 100%;
 		height: auto;
 		border-top: solid 1px black;
-		background-color: #c6dce0
-		border-bottom: solid black 1px;
+		background-color: #c6dce0;
+		border-bottom:  solid 1px black;
 	}
 
 	#gallery-about {
@@ -227,7 +227,6 @@
 
 /* Contact page */
 
-*/
 @media only screen and (min-width: 319px) {
 	#main-contact {
 		background-image: url(../images/signuppage.jpg);
