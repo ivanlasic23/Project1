@@ -312,7 +312,7 @@
 	}
 
 	#main-h1 {
-		font-size: 2.5rem;
+		font-size: 24px;
 		justify-content: center;
 		text-align: center;
 	}
@@ -320,7 +320,6 @@
 	#main-offer {
 		justify-content: center;
 		text-align: center;
-		font-size: 2rem;
 		text-decoration: underline;
 	}
 
@@ -352,6 +351,18 @@
 		text-align: center;
 		color: beige;
 		margin-bottom: 55px;
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 425px) {
+	#main-h1 {
+		font-size: 32px;}
+	#main-offer {
+		font-size: 28px;
+	}
+	#welcomemsg p {
+		font-size: 16px;
 	}
 }
 
