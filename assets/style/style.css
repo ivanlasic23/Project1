@@ -15,6 +15,10 @@
 
 @media only screen and (min-width: 319px) {
 
+	.section-about {
+		background-color: #b6eae9;
+	}
+
 	.hoursh3 {
 		justify-content: center;
 		text-align: center;
@@ -130,6 +134,7 @@
 		vertical-align: top;
 		margin-top: 200px;
 		margin-left: 60px;
+		font-size: 22px;
 	}
 
 	#about-img {
@@ -153,6 +158,7 @@
 		vertical-align: top;
 		margin-top: 200px;
 		margin-left: 60px;
+		font-size: 22px;
 
 	}
 

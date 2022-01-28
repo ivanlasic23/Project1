@@ -1,20 +1,15 @@
 Best Yoga Studio is a site for a new up and coming chic and urban yoga studio located in X. The sites aim primarily is to give more information about Best Yoga studio with hours of operation, two different pricing options and a contact form.
 
-Responsice Mockup
-
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 Existing Features
 Navigation Bar
 
-Featured on all four pages, the full responsive navigation bar as I had used and activated the flex to make my work a bit easier for me includes links to the Home page, Abour, Pricing and Sign Up/contact page and is identical in each page to allow for easy navigation. It has a hover effect of changing colors and adding un underline as well as scaling up to add a modern effect to it.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+Featured on all four pages, the full responsive navigation bar as I had used and activated the flex to make my work a bit easier for me includes links to the Home page, About, Pricing and Sign Up/contact page and is identical in each page to allow for easy navigation. It has a hover effect of changing colors and adding un underline as well as scaling up to add a modern effect to it.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-The landing page image
+The landing page 
 
-The landing includes a photograph of a young lady doing a yoga pose with text overlay to allow the user to see exactly what and for whom this site is directed towards. 
+The landing page includes a photograph of a young lady doing a yoga pose with text overlay to allow the user to see exactly what and for whom this site is directed towards. It also includes a link to a winter offer so the potential users can sign up quicker.
 
 Main section on home page includes the name of the business and a link that takes you to a contact page and it is for a promotion BYS is doing during the winter months.
 Link has a hover effect of changing the color of the text and scaling up for a modern effect.
@@ -27,18 +22,30 @@ Footer
 
 About
 
-The about page provides visitors with information about hours of operation and a informative video about BYS.
+The about page provides visitors with information about hours of operation and a informative video about BYS as well as testimonials which is a big part of most of the similar web sites.
 
-Pricing page provides users with two different pricing options subject to change in the future as one of the options is a promo that the studio is doing to attract new clients during winter months. Clicking on the Sign up here takes the user to the contact page.
+Pricing
 
-Contact page
+Pricing page provides users with two different pricing options subject to change in the future as one of the options is a promo that the studio is doing to attract new clients during winter months. Clicking on the Sign up here takes the user to the sign up page.
 
-This page will allow the user to get signed up. The user will be able specify if they would like to take part normal pricing or winter months promo. The user will be asked to submit their full name and email address. I have decides against using the labels because I think it looks cleaner without it.
+Sign up page
+
+This page will allow the user to get signed up. The user will be able specify if they would like to sign up normal pricing or winter months promo. The user will be asked to submit their full name and email address. I have decides against using the labels because I think it looks cleaner without it. In place of labels I have used placeholders.
 
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+
+
+
+
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+
+
+
+
+
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
@@ -69,24 +76,6 @@ Instructions on how to implement form validation on the Sign Up page was taken f
 The icons in the footer were taken from Font Awesome
 Media
 
-
-Other General Project Advice
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through this article by Chris Beams on How to Write a Git Commit Message
-
-Make sure to keep the messages in the imperative mood
-When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-
-For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-
-Writing Your Best Code
-HTML & CSS Coding Best Practices
-Google HTML/CSS Style Guide
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
-
-
 Home page pic link: https://unsplash.com/photos/I2YSmEUAgDY
 About page pic link: https://unsplash.com/photos/rX8gBeg2WM0
 Pricing page pic link:
@@ -95,3 +84,7 @@ Sign Up page pic link: https://unsplash.com/photos/GaprWyIw66o
 Video link: https://www.youtube.com/watch?v=qnxzm6gngXA
 
 https://mycolor.space/?hex=%23845EC2&sub=1 used for color inspiration
+
+Content
+
+Testimonials and convenient class schedule paragraph taken from https://yogasixoffers.com/hollywood/lp/25-off-forever/?gclid=Cj0KCQiAosmPBhCPARIsAHOen-NERRJ1ObxA__W22FYvbvLVsIWsjkVCkuGA9c1oCriryWtc8jaeYKgaAuGnEALw_wcB
