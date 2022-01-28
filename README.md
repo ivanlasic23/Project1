@@ -48,7 +48,7 @@ No errors were returned when passing through the official W3C validator
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 Unfixed Bugs
-Using media query can be a lot of work so for this project I have decided to only
+None
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
