@@ -15,6 +15,11 @@
 
 @media only screen and (min-width: 319px) {
 
+	.video1 {
+		width:"560";
+		height:"315";
+	}
+
 	.section-about {
 		background-color: #b6eae9;
 	}
@@ -39,7 +44,7 @@
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
-	
+
 	}
 
 	#about-img {
@@ -63,7 +68,7 @@
 		height: auto;
 		border-top: solid 1px black;
 		background-color: #c6dce0;
-		border-bottom:  solid 1px black;
+		border-bottom: solid 1px black;
 	}
 
 	#gallery-about {
@@ -148,7 +153,7 @@
 		margin-left: 20px;
 	}
 
-	#about-img-bottom  {
+	#about-img-bottom {
 		width: 40%;
 		display: inline-block;
 		margin-left: 20px;
@@ -179,6 +184,7 @@
 		text-align: center;
 		border: solid black 1px;
 	}
+
 	.hoursh3 {
 		padding-top: 15px;
 	}
@@ -233,8 +239,6 @@
 
 	;
 }
-
-
 
 /* Contact page */
 
@@ -319,6 +323,10 @@
 
 @media only screen and (min-width: 319px) {
 
+	.no-show {
+		display: none;
+	}
+
 	#body-home {
 		background-image: url(../images/Homepic.jpg);
 		width: 100%;
@@ -382,10 +390,13 @@
 
 @media only screen and (min-width: 425px) {
 	#main-h1 {
-		font-size: 32px;}
+		font-size: 32px;
+	}
+
 	#main-offer {
 		font-size: 28px;
 	}
+
 	#welcomemsg p {
 		font-size: 16px;
 	}
