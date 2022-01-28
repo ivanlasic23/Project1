@@ -8,16 +8,24 @@ Best Yoga Studio is a site for a new up and coming chic and urban yoga studio lo
 
 ### Navigation Bar
 
-Featured on all four pages, the full responsive navigation bar as I had used and activated the flex to make my work a bit easier for me includes links to the Home page, Abour, Pricing and Sign Up/contact page and is identical in each page to allow for easy navigation. It has a hover effect of changing colors and adding un underline as well as scaling up to add a modern effect to it.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+<li>Featured on all four pages, the full responsive navigation bar as I had used and activated the flex to make my work a bit easier for me includes links to the Home page, Abour, Pricing and Sign Up/contact page and is identical in each page to allow for easy navigation. It has a hover effect of changing colors and adding un underline as well as scaling up to add a modern effect to it.</li>
 
-The landing page image
+![nav bar snippet](assets/images/Navigation-bar.png)
 
-The landing includes a photograph of a young lady doing a yoga pose with text overlay to allow the user to see exactly what and for whom this site is directed towards. 
+### The landing page image
 
-Main section on home page includes the name of the business and a link that takes you to a contact page and it is for a promotion BYS is doing during the winter months.
-Link has a hover effect of changing the color of the text and scaling up for a modern effect.
+<li>The landing includes a photograph of a young lady doing a yoga pose with text overlay to inspire the user to sign up easily.</li>
+
+<li>This page has a link you can click to take you to the sign up page as well as a paragraph about the studio's ethos</li>
+
+<li>Main section on home page includes the name of the business and a link that takes you to a sign up page and it is for a promotion studio is doing.
+Link has a hover effect of scaling up for a modern effect.</li>
+
+![nav bar snippet](assets/images/LandingPageImg.png)
+
+ 
+
+
 
 The Footer
 
@@ -65,7 +73,7 @@ Media:
 
 [Home page pic](https://unsplash.com/photos/I2YSmEUAgDY)
 About page pic link: https://unsplash.com/photos/rX8gBeg2WM0
-Pricing page pic link:
+Pricing page pic link: https://unsplash.com/photos/LzrI5kLER7Y
 Sign Up page pic link: https://unsplash.com/photos/GaprWyIw66o
 Video link: https://www.youtube.com/watch?v=qnxzm6gngXA
 
