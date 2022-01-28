@@ -243,10 +243,13 @@
 /* Contact page */
 
 @media only screen and (min-width: 319px) {
+	
+	
+
 	#main-contact {
 		background-image: url(../images/signuppage.jpg);
 		width: 100%;
-		height: 100%;
+		height: 100vh;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
