@@ -33,6 +33,32 @@ Link has a hover effect of scaling up for a modern effect.</li>
 
 ![about page snippet](assets/images/AboutPage.png)
 
+### Pricing Page 
+
+<li>This section includes a picture of the inside of the studio with two different payment options</li>
+
+<li>The payment option windows have price listed with SIGN UP NOW a tag which on hover scales up and changes color and when clicked takes you to the next page which is Sign up</li>
+
+![about page snippet](assets/images/PricingPage.png)
+
+### Sign up page
+
+<li>This page has a beautiful background of the studios users doing the yoga out on the beach</li>
+
+<li>Page features a sign up form which has no labels but rather I decided to use placeholders for the clean look. It also has two radio buttons for two different plans</li>
+
+<li>Submit button has a hover effect where text changes color and scales up for modern effect</li>
+
+![about page snippet](assets/images/SignUpPage.png)
+
+### Footer 
+
+<li>The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.</li>
+
+![about page snippet](assets/images/Footer.png)
+
+
+
  
 
 
@@ -83,7 +109,7 @@ Media:
 
 [Home page pic](https://unsplash.com/photos/I2YSmEUAgDY)
 About page pic link: https://unsplash.com/photos/rX8gBeg2WM0
-Pricing page pic link: https://unsplash.com/photos/LzrI5kLER7Y
+Pricing page pic link: https://unsplash.com/photos/3jztLhBPrUo
 Sign Up page pic link: https://unsplash.com/photos/GaprWyIw66o
 Video link: https://www.youtube.com/watch?v=qnxzm6gngXA
 
