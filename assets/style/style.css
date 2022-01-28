@@ -118,6 +118,10 @@
 
 @media only screen and (min-width: 769px) {
 
+	.main-about {
+		margin-bottom: 20px;
+	}
+
 	#gallery-about {
 		text-align: left;
 	}
@@ -148,6 +152,7 @@
 		width: 40%;
 		display: inline-block;
 		margin-left: 20px;
+		margin-bottom: 0;
 	}
 
 	.class-schedule {
