@@ -19,13 +19,14 @@
 		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 40px;
 	}
 
 	.gmap_canvas {
 		margin-left: auto;
 		margin-right: auto;
 		overflow: hidden;
-		background:none !important;
+		background: none !important;
 		height: 200px;
 		width: 400px;
 	}
@@ -40,107 +41,99 @@
 		margin-bottom: 10px;
 	}
 
-		iframe {
-			width: 80%;
-		}
-	}
-
-	.section-about {
-		background-color: #b6eae9;
-	}
-
-	.hoursh3 {
-
-		text-align: center;
-		font-size: 20px;
-	}
-
-	.testimonials {
-		display: block;
-		margin-bottom: 50px;
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.class-schedule {
-		display: block;
-		margin-bottom: 50px;
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-
-	}
-
-	#about-img {
-		display: block;
-		width: 66%;
-		margin: 25px auto;
-	}
-
-	#about-img-bottom {
-		display: block;
-		text-align: center;
-		width: 66%;
-		margin: 25px;
-		margin-left: auto;
-		margin-right: auto;
-		border-radius: 5px;
-	}
-
-	#gallery-bottom {
-		width: 100%;
-		height: auto;
-		border-top: solid 1px black;
-		background-color: #c6dce0;
-		border-bottom: solid 1px black;
-	}
-
-	#gallery-about {
-		width: 100%;
-		height: auto;
-		border-top: solid 1px black;
-		background-color: #21a4e3;
-		padding-top: 5px;
-	}
-
-	.covidabout p {
-		background-color: rgba(100, 50, 73, 0.6);
-		color: beige;
-		text-align: center;
-		width: 90%;
-		margin-top: 10px;
-		margin-left: auto;
-		margin-right: auto;
-		border-radius: 10px;
-		padding: 10px 20px;
-	}
-
-	body {
-		background-color: #c6dce0;
-	}
-
-	#hours-table {
-		background-color: rgba(255, 167, 243, 0.5);
-		padding: 15px 15px 15px 15px;
-		border-radius: 20px;
-		border: 1px solid white;
-		display: block;
-		width: 60%;
-		margin: 10px auto;
-		margin-bottom: 50px;
-	}
-
 	iframe {
 		width: 80%;
-		border-radius: 5px;
 	}
+}
+
+.section-about {
+	background-color: #b6eae9;
+}
+
+.testimonials {
+	display: block;
+	margin-bottom: 50px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.class-schedule {
+	display: block;
+	margin-bottom: 50px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#about-img {
+	display: block;
+	width: 66%;
+	margin: 25px auto;
+}
+
+#about-img-bottom {
+	display: block;
+	text-align: center;
+	width: 66%;
+	margin: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+#gallery-bottom {
+	width: 100%;
+	height: auto;
+	border-top: solid 1px black;
+	background-color: #c6dce0;
+	border-bottom: solid 1px black;
+}
+
+#gallery-about {
+	width: 100%;
+	height: auto;
+	border-top: solid 1px black;
+	background-color: #21a4e3;
+	padding-top: 5px;
+}
+
+.covidabout p {
+	background-color: rgba(100, 50, 73, 0.6);
+	color: beige;
+	text-align: center;
+	width: 90%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+body {
+	background-color: #c6dce0;
+}
+
+#hours-table {
+	background-color: rgba(255, 167, 243, 0.5);
+	padding: 15px 15px 15px 15px;
+	border-radius: 20px;
+	border: 1px solid white;
+	display: block;
+	width: 60%;
+	margin: 10px auto;
+	margin-bottom: 50px;
+}
+
+iframe {
+	width: 80%;
+	border-radius: 5px;
+}
 
 
 @media only screen and (min-width: 426px) {
-	/*iframe {
-		width: 50%;
-	}*/
+
 
 	.video1 {
 		width: 560px;
@@ -239,10 +232,6 @@
 	.tables {
 		display: inline-block;
 	}
-
-	.hoursh3 {
-		padding-top: 15px;
-	}
 }
 
 /* Navigation bar */
@@ -292,6 +281,7 @@
 		height: 60px;
 	}
 }
+
 /* Contact page */
 
 @media only screen and (min-width: 319px) {
