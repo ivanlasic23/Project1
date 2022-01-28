@@ -164,6 +164,7 @@ iframe {
 		width: 60%;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 50px;
 	}
 
 	.main-about {
@@ -227,6 +228,7 @@ iframe {
 		text-align: center;
 		border: solid black 1px;
 		display: inline-block;
+		margin-bottom: 170px;
 	}
 
 	.tables {
