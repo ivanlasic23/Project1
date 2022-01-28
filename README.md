@@ -1,4 +1,4 @@
-Best Yoga Studio is a site for a new up and coming chic and urban yoga studio located in X. The sites aim primarily is to give more information about Best Yoga studio with hours of operation, two different pricing options and a contact form.
+# Stretch Yoga Studio is a site for a new up and coming chic and urban yoga studio located in X. The sites aim primarily is to give more information about Best Yoga studio with hours of operation, two different pricing options and a contact form.
 
 
 
@@ -35,7 +35,7 @@ Link has a hover effect of scaling up for a modern effect.</li>
 
 ### Pricing Page 
 
-<li>This section includes a picture of the inside of the studio with two different payment options</li>
+<li>This section includes a picture of the inside of the studio with two different payment options which will change from time to time</li>
 
 <li>The payment option windows have price listed with SIGN UP NOW a tag which on hover scales up and changes color and when clicked takes you to the next page which is Sign up</li>
 
@@ -55,63 +55,41 @@ Link has a hover effect of scaling up for a modern effect.</li>
 
 <li>The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.</li>
 
+<li>The footer is identical on all four different pages of BYS site. The links will open to a new tab to allow easy navigation for the user.
+The footer is valuable to the user as it encourages them to keep connected via social media.</li>
+
 ![about page snippet](assets/images/Footer.png)
 
 
 
- 
+## Testing
 
+<ul>Validator Testing</ul>
 
+<li> HTML test with https://validator.w3.org/ No errors were returned when passing through the official W3C validator</li>
 
-The Footer
+<li>CSS https://validator.w3.org/ No errors were found when passing through the official (Jigsaw) validator</li>
 
-The footer section includes links to the relevant social media sites and an direct email for Best Yoga Studio. The footer is identical on all four different pages of BYS site. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media.
-Footer
+## Unfixed Bugs
 
-About
+### Working with only HTML and CSS responsiveness is not perfect as it would require many media queries. I have only used three breakpoints
 
-The about page provides visitors with information about hours of operation and a informative video about BYS as well as the testimonials.
+## The site was deployed to GitHub pages. The steps to deploy are as follows:
+### In the GitHub repository, navigate to the Settings tab
+### From the source section drop-down menu, select the Master Branch
 
-Pricing page provides users with two different pricing options subject to change in the future as one of the options is a promo that the studio is doing to attract new clients during winter months. Clicking on the Sign up here takes the user to the contact page.
+### Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+### The live link can be found here - https://ivanlasic23.github.io/Project1/about.html
 
-Contact page
+## Credits
 
-This page will allow the user to get signed up. The user will be able specify if they would like to take part normal pricing or winter months promo. The user will be asked to submit their full name and email address. I have decides against using the labels because I think it looks cleaner without it.
-
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Validator Testing
-HTML test with https://validator.w3.org/
-No errors were returned when passing through the official W3C validator
-CSS https://validator.w3.org/
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-None
-
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
-
-Credits
-
-Media:
+### Media:
 
 [Home page pic](https://unsplash.com/photos/I2YSmEUAgDY)
-About page pic link: https://unsplash.com/photos/rX8gBeg2WM0
-Pricing page pic link: https://unsplash.com/photos/3jztLhBPrUo
-Sign Up page pic link: https://unsplash.com/photos/GaprWyIw66o
-Video link: https://www.youtube.com/watch?v=qnxzm6gngXA
+[About page pic](https://unsplash.com/photos/rX8gBeg2WM0)
+[Pricing page pic](https://unsplash.com/photos/3jztLhBPrUo)
+[Sign Up page pic](https://unsplash.com/photos/GaprWyIw66o)
+[Video link](https://www.youtube.com/watch?v=qnxzm6gngXA)
 
-Content:
-The content used is all done by me with taking inspiration from several websites.
+## Content:
+<li>The content used is all done by me</li>
