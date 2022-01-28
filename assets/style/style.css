@@ -289,12 +289,9 @@
 
 @media only screen and (min-width: 767px) {
 	nav {
-		height: 60px
+		height: 60px;
 	}
-
-	;
 }
-
 /* Contact page */
 
 @media only screen and (min-width: 319px) {
