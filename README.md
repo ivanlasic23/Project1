@@ -12,7 +12,7 @@ Best Yoga Studio is a site for a new up and coming chic and urban yoga studio lo
 
 ![nav bar snippet](assets/images/Navigation-bar.png)
 
-### The landing page image
+### The landing page
 
 <li>The landing includes a photograph of a young lady doing a yoga pose with text overlay to inspire the user to sign up easily.</li>
 
@@ -22,6 +22,16 @@ Best Yoga Studio is a site for a new up and coming chic and urban yoga studio lo
 Link has a hover effect of scaling up for a modern effect.</li>
 
 ![nav bar snippet](assets/images/LandingPageImg.png)
+
+### About Page
+
+<li>This section includes a video about history of Stretch yoga studio as well as a section with testimonials, hours of operation and a google map of the place</li>
+
+<li>User has to press play on the link to play the video and turn up the volume manually</li>
+
+<li>This page also includes two images of people doing yoga</li>
+
+![about page snippet](assets/images/AboutPage.png)
 
  
 
