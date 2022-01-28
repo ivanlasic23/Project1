@@ -43,9 +43,9 @@ In addition, you should mention in this section how your project looks and works
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Validator Testing
-HTML
+HTML test with https://validator.w3.org/
 No errors were returned when passing through the official W3C validator
-CSS
+CSS https://validator.w3.org/
 No errors were found when passing through the official (Jigsaw) validator
 Unfixed Bugs
 None
