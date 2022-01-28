@@ -15,9 +15,15 @@
 
 @media only screen and (min-width: 319px) {
 
+	.client-testimonials {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
 	.video1 {
-		width:"560";
-		height:"315";
+		width: "560";
+		height: "315";
+		
 	}
 
 	.section-about {
@@ -76,6 +82,7 @@
 		height: auto;
 		border-top: solid 1px black;
 		background-color: #21a4e3;
+		padding-top: 5px;
 	}
 
 	.covidabout p {
@@ -243,8 +250,6 @@
 /* Contact page */
 
 @media only screen and (min-width: 319px) {
-	
-	
 
 	#main-contact {
 		background-image: url(../images/signuppage.jpg);
