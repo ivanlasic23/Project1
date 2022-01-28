@@ -58,7 +58,7 @@ Link has a hover effect of scaling up for a modern effect.</li>
 <li>The footer is identical on all four different pages of BYS site. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media.</li>
 
-![about page snippet](assets/images/Footer.png)
+![about page snippet](assets/images/FooterFooter.png)
 
 
 
