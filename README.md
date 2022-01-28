@@ -1,4 +1,4 @@
-# Stretch Yoga Studio is a site for a new up and coming chic and urban yoga studio located in X. The sites aim primarily is to give more information about Best Yoga studio with hours of operation, two different pricing options and a contact form.
+# Stretch Yoga Studio is a site for a new up and coming chic and urban yoga studio located in X. The sites aim primarily is to give more information about Best Yoga studio with hours of operation, history, testimonials, two different pricing options and a contact form.
 
 
 
