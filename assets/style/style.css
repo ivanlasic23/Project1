@@ -347,14 +347,7 @@ textarea {
 
 /*Home page styles*/
 
-.who-are-we {
-	text-align: center;
-	margin-top: 80px;
-	color: beige;
-}
-
-#body-home {
-	background-image: url(../images/homepicture.jpg);
+#homepage-img {
 	width: 100%;
 	height: 100%;
 	background-position: center;
@@ -363,10 +356,27 @@ textarea {
 	background-attachment: fixed;
 }
 
+.who-are-we {
+	text-align: center;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+/*#body-home {
+	background-image: url(../images/homepicture.jpg);
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+*/
 #main-main {
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #728687;
+	background-color: white;
 	width: 100%;
 	height: 110px;
 	padding-top: 15px;
@@ -396,23 +406,23 @@ main>a {
 
 main>a:hover {
 	transform: scale(1.03);
-	color: beige;
+	color: black;
 }
 
 #main-offer {
 	font-size: 18px;
-	color: beige;
+	color: black;
 }
 
-#welcomemsg p {
+#welcomemsg {
 	padding-left: 30px;
 	padding-right: 30px;
 	text-align: center;
-	color: beige;
-	margin-top: 100px;
+	color: black;
 	font-size: 14px;
-	background-color: #728687;
+	background-color: white;
 	width: 100%;
+	
 }
 
 @media only screen and (min-width: 425px) {
@@ -431,30 +441,19 @@ main>a:hover {
 
 	#welcomemsg p {
 		font-size: 16px;
-		margin-top: 80px;
-	}
-
-	.who-are-we {
-		margin-top: 70px;
 	}
 }
 
 @media only screen and (min-width: 768px) {
 	#welcomemsg {
-		margin-top: 100px;
 		font-size: 27px;
 	}
 }
 
 @media only screen and (min-width: 1024px) {
 	#welcomemsg p{
-		margin-top: 150px;
 		font-size: 23px;
 		height: 180px;
-	}
-
-	.who-are-we {
-		margin-bottom: 40px;
 	}
 }
 
@@ -471,7 +470,7 @@ main>a:hover {
 }
 
 .offer {
-	background-color: rgba(230, 131, 89, 0.8);
+	background-color: rgba(255, 255, 255, 0.8);
 	float: none;
 	border-radius: 20px;
 	border: 1px solid white;
@@ -483,7 +482,7 @@ main>a:hover {
 }
 
 .price {
-	background-color: rgba(250, 160, 122, 0.8);
+	background-color: rgba(255, 255, 255, 0.8);
 	float: none;
 	border-radius: 20px;
 	border: 1px solid white;
