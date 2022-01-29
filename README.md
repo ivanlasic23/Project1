@@ -132,7 +132,7 @@ The footer is valuable to the user as it encourages them to keep connected via s
 ### You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
 ### The Clone option provides a url, which you can use on your desktop IDE.
 ### The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
-### The live link can be found here - https://ivanlasic23.github.io/Project1/about.html
+### The live link can be found here - https://ivanlasic23.github.io/Project1/index.html
 
 # Credits
 
