@@ -272,7 +272,7 @@ iframe {
 	}
 }
 
-/* Contact page */
+/* Sign Up Page*/
 
 @media only screen and (min-width: 319px) {
 
@@ -319,8 +319,8 @@ iframe {
 	#input-submit:hover {
 		transform: scale(1.05);
 		cursor: pointer;
-		color: beige;
-		text-decoration: underline;
+		color: #FFA7F3;
+		background-color: black;
 	}
 
 	label {
@@ -337,6 +337,10 @@ iframe {
 	.sign-up-here {
 		padding-bottom: 20px;
 		font-size: 1.5rem;
+	}
+
+	.radio-btn:hover {
+		cursor: pointer;
 	}
 }
 
