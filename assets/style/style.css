@@ -363,16 +363,6 @@ textarea {
 	padding: 0;
 }
 
-/*#body-home {
-	background-image: url(../images/homepicture.jpg);
-	width: 100%;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-*/
 #main-main {
 	margin-left: auto;
 	margin-right: auto;
@@ -383,7 +373,7 @@ textarea {
 }
 
 #main-h1 {
-	font-size: 24px;
+	font-size: 28px;
 	justify-content: center;
 	text-align: center;
 }
@@ -427,12 +417,12 @@ main>a:hover {
 
 @media only screen and (min-width: 425px) {
 
-	#main-offer {
-		padding: 0;
+	#main-main {
+		height: 122px;
 	}
 
 	#main-h1 {
-		font-size: 32px;
+		font-size: 38px;
 	}
 
 	#main-offer {
