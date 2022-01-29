@@ -1,4 +1,10 @@
-# Stretch Yoga Studio is a site for a new up and coming chic and urban yoga studio located in X. The sites aim primarily is to give more information about Best Yoga studio with hours of operation, history, testimonials, two different pricing options and a contact form.
+# Stretch Yoga Studio
+
+
+### A four page web app about up and coming yoga studio
+
+---
+## Stretch Yoga Studio is a site for a new up and coming chic and urban yoga studio located in X. The sites aim primarily is to give more information about Best Yoga studio with hours of operation, history, testimonials, two different pricing options and a contact form where potential clients can choose from two options.
 
 
 
@@ -6,11 +12,15 @@
 
 ## Existing Features
 
+---
+
 ### Navigation Bar
 
 <li>Featured on all four pages, the full responsive navigation bar as I had used and activated the flex to make my work a bit easier for me includes links to the Home page, Abour, Pricing and Sign Up/contact page and is identical in each page to allow for easy navigation. It has a hover effect of changing colors and adding un underline as well as scaling up to add a modern effect to it.</li>
 
 ![nav bar snippet](assets/images/Navigation-bar.png)
+
+---
 
 ### The Home page
 
@@ -23,6 +33,8 @@ Link has a hover effect of scaling up for a modern effect.</li>
 
 ![nav bar snippet](assets/images/homepage.png)
 
+---
+
 ### About Page
 
 <li>This section includes a video about history of Stretch yoga studio as well as a section with testimonials, hours of operation and a google map of the place</li>
@@ -33,6 +45,7 @@ Link has a hover effect of scaling up for a modern effect.</li>
 
 ![about page snippet](assets/images/AboutPage.png)
 
+---
 ### Pricing Page 
 
 <li>This section includes a picture of the inside of the studio with two different payment options which will change from time to time</li>
@@ -41,6 +54,7 @@ Link has a hover effect of scaling up for a modern effect.</li>
 
 ![about page snippet](assets/images/PricingPage.png)
 
+---
 ### Sign up page
 
 <li>This page has a beautiful background of the studios users doing the yoga out on the beach</li>
@@ -51,6 +65,7 @@ Link has a hover effect of scaling up for a modern effect.</li>
 
 ![about page snippet](assets/images/SignUpPage.png)
 
+---
 ### Footer 
 
 <li>The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.</li>
@@ -59,6 +74,18 @@ Link has a hover effect of scaling up for a modern effect.</li>
 The footer is valuable to the user as it encourages them to keep connected via social media.</li>
 
 ![about page snippet](assets/images/FooterFooter.png)
+
+---
+
+### Fonts
+
+<li> Used 'Oswald' with fallback on sans serif</li>
+
+### Colors
+
+<li>For fonts I went with black with hover effect on links with bwige </li>
+
+---
 
 
 
@@ -80,6 +107,7 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 ![tablet home page snippet](assets/images/hometablet.png)
 
+---
 ## About Page responsiveness 
 
 <li>Mobile</li>
@@ -90,7 +118,7 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 ![about tablet page snippet](assets/images/AboutTablet.png)
 
-
+---
 ## Pricing Page responsiveness 
 
 
@@ -102,8 +130,8 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 ![pricing tablet page snippet](assets/images/pricingtablet.png)
 
+---
 ## Sign up Page responsiveness 
-
 
 <li>Mobile</li>
 
@@ -113,12 +141,10 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 ![sign up tablet page snippet](assets/images/signuptablet.png)
 
-
-
-
+---
 # Unfixed Bugs
 
-### Working with only HTML and CSS responsiveness is not perfect as it would require many media queries. I have only used three breakpoints
+### Working with only HTML and CSS responsiveness is not perfect as it would require many media queries. I have only used three breakpoints. 
 
 
 # Deployment

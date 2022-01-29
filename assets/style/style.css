@@ -4,8 +4,6 @@
 	box-sizing: border-box;
 	color: black;
 	text-decoration: none;
-	font-family: 'Exo', sans-serif;
-	font-family: 'Lato', sans-serif;
 	font-family: 'Oswald', sans-serif;
 	overflow-x: hidden;
 }
@@ -412,7 +410,7 @@ main>a:hover {
 	font-size: 14px;
 	background-color: white;
 	width: 100%;
-	
+
 }
 
 @media only screen and (min-width: 425px) {
@@ -441,7 +439,7 @@ main>a:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-	#welcomemsg p{
+	#welcomemsg p {
 		font-size: 23px;
 		height: 180px;
 	}
