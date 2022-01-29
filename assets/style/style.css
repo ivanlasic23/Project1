@@ -449,10 +449,11 @@ iframe {
 	.who-are-we {
 		margin-top: 70px;
 	}
+
 	#main-main {
 		margin-top: 50px;
 	}
-	
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -480,7 +481,7 @@ iframe {
 	}
 
 	.offer {
-		background-color: rgba(230, 131, 89, 0.7);
+		background-color: rgba(230, 131, 89, 0.8);
 		float: none;
 		border-radius: 20px;
 		border: 1px solid white;
@@ -492,7 +493,7 @@ iframe {
 	}
 
 	.price {
-		background-color: rgba(250, 160, 122, 0.7);
+		background-color: rgba(250, 160, 122, 0.8);
 		float: none;
 		border-radius: 20px;
 		border: 1px solid white;

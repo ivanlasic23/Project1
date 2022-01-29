@@ -62,7 +62,7 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 
 
-## Testing
+# Testing
 
 <ul>Validator Testing</ul>
 
@@ -70,18 +70,71 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 <li>CSS https://validator.w3.org/ No errors were found when passing through the official (Jigsaw) validator</li>
 
-## Unfixed Bugs
+## Home Page responsiveness
+
+<li>Mobile</li>
+
+![mobile home page snippet](assets/images/homepagemobile.png)
+
+<li>Tablet</li>
+
+![tablet home page snippet](assets/images/hometablet.png)
+
+## About Page responsiveness 
+
+<li>Mobile</li>
+
+![about mobile page snippet](assets/images/AboutMobile.png)
+
+<li>Tablet</li>
+
+![about tablet page snippet](assets/images/AboutTablet.png)
+
+
+## Pricing Page responsiveness 
+
+
+<li>Mobile</li>
+
+![pricing mobile page snippet](assets/images/pricingmobile.png)
+
+<li>Tablet</li>
+
+![pricing tablet page snippet](assets/images/pricingtablet.png)
+
+## Sign up Page responsiveness 
+
+
+<li>Mobile</li>
+
+![sign up mobile page snippet](assets/images/signupmobile.png)
+
+<li>Tablet</li>
+
+![sign up tablet page snippet](assets/images/signuptablet.png)
+
+
+
+
+# Unfixed Bugs
 
 ### Working with only HTML and CSS responsiveness is not perfect as it would require many media queries. I have only used three breakpoints
 
+
+# Deployment
 ## The site was deployed to GitHub pages. The steps to deploy are as follows:
 ### In the GitHub repository, navigate to the Settings tab
 ### From the source section drop-down menu, select the Master Branch
 
-### Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+### Once selected, this publishes the project to GitHub Pages and displays the site url.
+### There is no difference between the deployed version and the development version.
+### The code can be run locally through clone or download.
+### You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
+### The Clone option provides a url, which you can use on your desktop IDE.
+### The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
 ### The live link can be found here - https://ivanlasic23.github.io/Project1/about.html
 
-## Credits
+# Credits
 
 ### Media:
 
@@ -93,3 +146,57 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 ## Content:
 <li>The content used is all done by me</li>
+
+# Technologies Used
+
+## Languages
+
+<ol>
+
+<li>HTML</li>
+
+<li>CSS</li>
+
+</ol>
+
+## Integrations 
+
+<ol>
+
+<li>Google Fonts</li>
+
+<li>Font Awesome</li>
+
+</ol>
+
+## Workspace
+
+<ol>
+
+<li>GitPod</li>
+
+<li>GitHub</li>
+
+</ol>
+
+## Other
+
+<ol>
+
+<li>Code Institute for main resource for project</li>
+
+<li>Youtube for tutorials</li>
+
+<li>Slack for common questions</li>
+
+<li>Stackoverflow for less common questions</li>
+
+<li>Colormind.Io for color inspiration</li>
+
+<li>Unsplash for free images</li>
+
+<li>Common Mark for markdown language reference</li>
+
+</ol>
+
+### For any further queries please email me at ivanlasic23@yahoo.com
