@@ -483,15 +483,14 @@ main>a:hover {
 
 .button1 {
 	color: darkred;
-	font-size: 1.2rem;
+	font-size: 22px;
 	display: inline-block;
 	transition: transform 0.7s ease;
 }
 
 .button1:hover {
 	transform: scale(1.04);
-	font-size: 1.3rem;
-	color: beige;
+	color: #FFA7F3;
 	text-decoration: underline;
 }
 
