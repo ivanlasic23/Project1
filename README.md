@@ -68,9 +68,9 @@ Link has a hover effect of scaling up for a modern effect.</li>
 ---
 ### Footer 
 
-<li>The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.</li>
+<li>The footer section includes links to the relevant social media sites for Stretch Yoga. The links will open to a new tab to allow easy navigation for the user.</li>
 
-<li>The footer is identical on all four different pages of BYS site. The links will open to a new tab to allow easy navigation for the user.
+<li>The footer is identical on all four different pages of the site. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media.</li>
 
 ![about page snippet](assets/images/FooterFooter.png)
