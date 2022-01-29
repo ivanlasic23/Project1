@@ -13,37 +13,34 @@
 
 /* About page*/
 
-@media only screen and (min-width: 319px) {
+.mapouter {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
 
-	.mapouter {
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 40px;
-	}
+.gmap_canvas {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	background: none !important;
+	height: 200px;
+	width: 400px;
+}
 
-	.gmap_canvas {
-		margin-left: auto;
-		margin-right: auto;
-		overflow: hidden;
-		background: none !important;
-		height: 200px;
-		width: 400px;
-	}
+.class-schedule-heading {
+	text-align: center;
+	margin-bottom: 10px;
+}
 
-	.class-schedule-heading {
-		text-align: center;
-		margin-bottom: 10px;
-	}
+.client-testimonials {
+	text-align: center;
+	margin-bottom: 10px;
+}
 
-	.client-testimonials {
-		text-align: center;
-		margin-bottom: 10px;
-	}
-
-	iframe {
-		width: 80%;
-	}
+iframe {
+	width: 80%;
 }
 
 .section-about {
@@ -119,6 +116,11 @@ iframe {
 	border-radius: 5px;
 }
 
+.find-us-here {
+	text-align: center;
+}
+
+
 
 @media only screen and (min-width: 426px) {
 
@@ -137,10 +139,6 @@ iframe {
 	.gmap_canvas {
 		height: 400px;
 		width: 600px;
-	}
-
-	.find-us-here {
-		text-align: center;
 	}
 
 }
@@ -218,48 +216,46 @@ iframe {
 		display: inline-block;
 		margin-bottom: 170px;
 	}
+
 }
 
 /* Navigation bar */
 
-@media only screen and (min-width: 319px) {
-	nav {
-		background-color: #FFA7F3;
-		border-bottom: 1px solid white;
-		height: 75px;
-	}
+nav {
+	background-color: #FFA7F3;
+	border-bottom: 1px solid white;
+	height: 75px;
+}
 
-	#nav-ul li {
-		display: inline;
-		padding-left: 1.6rem;
-		padding-right: 1.6rem;
-		font-weight: 500;
-		text-transform: uppercase;
-	}
+#nav-ul li {
+	display: inline;
+	padding-left: 1.6rem;
+	padding-right: 1.6rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
 
-	li a {
-		font-size: 20px;
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
-	}
+li a {
+	font-size: 20px;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
 
-	#nav-ul {
-		justify-content: center;
-		text-align: center;
-		padding-top: 15px;
-		transition: transform 0.6s ease-in;
-	}
+#nav-ul {
+	justify-content: center;
+	text-align: center;
+	padding-top: 15px;
+	transition: transform 0.6s ease-in;
+}
 
-	#nav-ul:hover {
-		transform: scale(1.03);
-	}
+#nav-ul:hover {
+	transform: scale(1.03);
+}
 
-	#nav-ul a:hover {
-		color: beige;
-		transform: scale(1.03);
-		text-decoration: underline;
-	}
-
+#nav-ul a:hover {
+	color: beige;
+	transform: scale(1.03);
+	text-decoration: underline;
 }
 
 @media only screen and (min-width: 767px) {
@@ -270,74 +266,71 @@ iframe {
 
 /* Sign Up Page*/
 
-@media only screen and (min-width: 319px) {
+#main-contact {
+	background-image: url(../images/signuppage.jpg);
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
-	#main-contact {
-		background-image: url(../images/signuppage.jpg);
-		width: 100%;
-		height: 100vh;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-	}
+.contact-form {
+	background-color: rgba(247, 247, 247, 0.7);
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: black solid 2px;
+	height: auto;
+	padding-top: 33px;
+	border-radius: 5px;
+	margin-top: 25px;
+}
 
-	.contact-form {
-		background-color: rgba(247, 247, 247, 0.7);
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-		border: black solid 2px;
-		height: auto;
-		padding-top: 33px;
-		border-radius: 5px;
-		margin-top: 25px;
-	}
+input {
+	width: 90%;
+	border: black solid 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 5px 2px;
+	border-radius: 5px;
+}
 
-	input {
-		width: 90%;
-		border: black solid 1px;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		margin: 5px 2px;
-		border-radius: 5px;
-	}
+#input-submit {
+	width: 33%;
+	font-weight: 800;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	background-color: #FFA7F3;
+	transition: transform 0.4s ease;
+}
 
-	#input-submit {
-		width: 33%;
-		font-weight: 800;
-		margin-bottom: 15px;
-		border-radius: 5px;
-		background-color: #FFA7F3;
-		transition: transform 0.4s ease;
-	}
+#input-submit:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+	color: #FFA7F3;
+	background-color: black;
+}
 
-	#input-submit:hover {
-		transform: scale(1.05);
-		cursor: pointer;
-		color: #FFA7F3;
-		background-color: black;
-	}
+label {
+	display: block;
+}
 
-	label {
-		display: block;
-	}
+textarea {
+	border-radius: 5px;
+	width: 90%;
+	height: 65px;
+	margin-top: 10px;
+}
 
-	textarea {
-		border-radius: 5px;
-		width: 90%;
-		height: 65px;
-		margin-top: 10px;
-	}
+.sign-up-here {
+	padding-bottom: 20px;
+	font-size: 1.5rem;
+}
 
-	.sign-up-here {
-		padding-bottom: 20px;
-		font-size: 1.5rem;
-	}
-
-	.radio-btn:hover {
-		cursor: pointer;
-	}
+.radio-btn:hover {
+	cursor: pointer;
 }
 
 @media only screen and (min-width: 767px) {
@@ -354,76 +347,73 @@ iframe {
 
 /*Home page styles*/
 
-@media only screen and (min-width: 319px) {
+.who-are-we {
+	text-align: center;
+	margin-top: 20px;
+	color: beige;
+}
 
-	.who-are-we {
-		text-align: center;
-		margin-top: 20px;
-		color: beige;
-	}
+#body-home {
+	background-image: url(../images/homepicture.jpg);
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
-	#body-home {
-		background-image: url(../images/homepicture.jpg);
-		width: 100%;
-		height: 100%;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-	}
+#main-main {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-	#main-main {
-		width: 50%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+#main-h1 {
+	font-size: 24px;
+	justify-content: center;
+	text-align: center;
+}
 
-	#main-h1 {
-		font-size: 24px;
-		justify-content: center;
-		text-align: center;
-	}
+#main-offer {
+	justify-content: center;
+	text-align: center;
+	text-decoration: underline;
+}
 
-	#main-offer {
-		justify-content: center;
-		text-align: center;
-		text-decoration: underline;
-	}
+main {
+	text-align: center;
+	overflow: hidden;
+}
 
-	main {
-		text-align: center;
-		overflow: hidden;
-	}
+main>a {
+	transition: transform 0.7s ease;
+	display: inline-block;
+}
 
-	main>a {
-		transition: transform 0.7s ease;
-		display: inline-block;
-	}
+main>a:hover {
+	transform: scale(1.03);
+	color: beige;
+}
 
-	main>a:hover {
-		transform: scale(1.03);
-		color: beige;
-	}
+#main-offer {
+	font-size: 18px;
+	color: beige;
+}
 
-	#main-offer {
-		font-size: 18px;
-		color: beige;
-	}
+#welcomemsg p {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	color: beige;
+	margin-bottom: 55px;
+	font-size: 14px;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
 
-	#welcomemsg p {
-		padding-left: 20px;
-		padding-right: 20px;
-		text-align: center;
-		color: beige;
-		margin-bottom: 55px;
-		font-size: 14px;
-		background-color: rgba(0, 0, 0, 0.5);
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-		border-radius: 5px;
-
-	}
 }
 
 @media only screen and (min-width: 426px) {
@@ -468,56 +458,52 @@ iframe {
 
 /* Pricing page */
 
-@media only screen and (min-width: 319px) {
+#body-pricing {
+	background-image: url(../images/ralph-ravi-kayden-3jztLhBPrUo-unsplash.jpg);
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
-	#body-pricing {
-		background-image: url(../images/ralph-ravi-kayden-3jztLhBPrUo-unsplash.jpg);
-		width: 100%;
-		height: 100%;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-	}
+.offer {
+	background-color: rgba(230, 131, 89, 0.8);
+	float: none;
+	border-radius: 20px;
+	border: 1px solid white;
+	margin: 20px auto 45px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 80%;
+	font-weight: 700;
+}
 
-	.offer {
-		background-color: rgba(230, 131, 89, 0.8);
-		float: none;
-		border-radius: 20px;
-		border: 1px solid white;
-		margin: 20px auto 45px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		width: 80%;
-		font-weight: 700;
-	}
+.price {
+	background-color: rgba(250, 160, 122, 0.8);
+	float: none;
+	border-radius: 20px;
+	border: 1px solid white;
+	margin: 20px auto 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 80%;
+	font-weight: 700;
+}
 
-	.price {
-		background-color: rgba(250, 160, 122, 0.8);
-		float: none;
-		border-radius: 20px;
-		border: 1px solid white;
-		margin: 20px auto 10px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		width: 80%;
-		font-weight: 700;
-	}
+.button1 {
+	color: darkred;
+	font-size: 1.2rem;
+	display: inline-block;
+	transition: transform 0.7s ease;
+}
 
-	.button1 {
-		color: darkred;
-		font-size: 1.2rem;
-		display: inline-block;
-		transition: transform 0.7s ease;
-	}
-
-	.button1:hover {
-		transform: scale(1.04);
-		font-size: 1.3rem;
-		color: beige;
-		text-decoration: underline;
-	}
-
+.button1:hover {
+	transform: scale(1.04);
+	font-size: 1.3rem;
+	color: beige;
+	text-decoration: underline;
 }
 
 @media only screen and (min-width: 767px) {
@@ -538,40 +524,37 @@ iframe {
 
 /* Footer */
 
-@media only screen and (min-width: 319px) {
+footer {
+	justify-content: center;
+	text-align: center;
+	background-color: #FFA7F3;
+	display: flex;
+	height: 2.6rem;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid white;
+	overflow: hidden !important;
 
-	footer {
-		justify-content: center;
-		text-align: center;
-		background-color: #FFA7F3;
-		display: flex;
-		height: 2.6rem;
-		position: fixed;
-		bottom: 0;
-		width: 100%;
-		height: 40px;
-		border-top: 1px solid white;
-		overflow: hidden !important;
+}
 
-	}
+footer a {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: 10px;
+	transition: transform ease 0.3s;
+	overflow: hidden !important;
+}
 
-	footer a {
-		padding-left: 1.5rem;
-		padding-right: 1.5rem;
-		padding-top: 10px;
-		transition: transform ease 0.3s;
-		overflow: hidden !important;
-	}
-
-	footer a:hover {
-		transform: scale(1.15);
-		overflow: hidden !important;
-	}
+footer a:hover {
+	transform: scale(1.15);
+	overflow: hidden !important;
+}
 
 
-	#h3-footer {
-		display: none;
-	}
+#h3-footer {
+	display: none;
 }
 
 @media only screen and (min-width: 767px) {
