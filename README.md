@@ -12,16 +12,16 @@
 
 ![nav bar snippet](assets/images/Navigation-bar.png)
 
-### The landing page
+### The Home page
 
-<li>The landing includes a photograph of a young lady doing a yoga pose with text overlay to inspire the user to sign up easily.</li>
+<li>The Home page includes a photograph of a young lady doing a yoga pose with text overlay to inspire the user to sign up easily.</li>
 
 <li>This page has a link you can click to take you to the sign up page as well as a paragraph about the studio's ethos</li>
 
 <li>Main section on home page includes the name of the business and a link that takes you to a sign up page and it is for a promotion studio is doing.
 Link has a hover effect of scaling up for a modern effect.</li>
 
-![nav bar snippet](assets/images/HomePage.png)
+![nav bar snippet](assets/images/homepage.png)
 
 ### About Page
 
@@ -74,7 +74,7 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 <li>Mobile</li>
 
-![mobile home page snippet](assets/images/homepagemobile.png)
+![mobile home page snippet](assets/images/homemobile.png)
 
 <li>Tablet</li>
 
