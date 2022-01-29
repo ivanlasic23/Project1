@@ -406,13 +406,11 @@ iframe {
 	}
 
 	#main-offer {
-		padding-top: 2rem;
-		font-size: 1.5rem;
+		font-size: 18px;
 		color: beige;
 	}
 
 	#welcomemsg p {
-		margin-top: 50px;
 		padding-left: 20px;
 		padding-right: 20px;
 		text-align: center;
@@ -429,6 +427,11 @@ iframe {
 }
 
 @media only screen and (min-width: 426px) {
+
+	#main-offer {
+		padding: 0;
+	}
+
 	#main-h1 {
 		font-size: 32px;
 	}
@@ -439,13 +442,26 @@ iframe {
 
 	#welcomemsg p {
 		font-size: 16px;
+		margin-bottom: 100px;
+		width: 66%;
 	}
 
 	.who-are-we {
-		margin-top: 170px;
+		margin-top: 70px;
 	}
 	#main-main {
 		margin-top: 50px;
+	}
+	
+}
+
+@media only screen and (min-width: 1024px) {
+	#welcomemsg {
+		margin-top: 120px;
+	}
+
+	.who-are-we {
+		margin-bottom: 40px;
 	}
 }
 

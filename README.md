@@ -21,7 +21,7 @@
 <li>Main section on home page includes the name of the business and a link that takes you to a sign up page and it is for a promotion studio is doing.
 Link has a hover effect of scaling up for a modern effect.</li>
 
-![nav bar snippet](assets/images/LandingPageImg.png)
+![nav bar snippet](assets/images/HomePage.png)
 
 ### About Page
 
