@@ -225,4 +225,9 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 </ol>
 
+## Accessibility
+
+### Consistently scored over 90 in Lighthouse for accessibility
+
+
 ### For any further queries please email me at ivanlasic23@yahoo.com
